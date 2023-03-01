@@ -1,0 +1,123 @@
+:root{
+    --main-color:#4B4E6D;
+    --secondary-color:#92D8A9;
+    --contrast-color:#F3F3F3;
+    --light-color:#BECEC5;
+    --dark-color:#222222;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    padding:1vw 1vw 0 1vw;
+    background-color: var(--secondary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: var(--main-color);
+    border-radius: 2px;
+    width: 98vw;
+}
+header h1{
+    color: var(--contrast-color);
+    text-align: center;
+    padding: 15px 0;
+    margin: 0;
+}
+hr{
+    margin: 15px 30px;
+    color: #4B4E6D;
+    border: solid 1px #4B4E6D;
+    width: 98vw;
+}
+.main-wrapper{
+    display: flex;
+    height: 100vh;
+    width: 98vw;
+}
+article{
+    background-color: var(--main-color);
+    width: 69vw;
+    padding: 2vw;
+}
+section{
+    margin-bottom: 3vh;
+}
+article h2{
+    color: var(--contrast-color);
+}
+article p{
+    color: var(--light-color);
+    text-align: justify;
+}
+aside{
+    background-color: aliceblue;
+    width: 31vw;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+input[type="email"]{
+    height:5vh;
+    padding: 1vw;
+    margin-bottom: 2.5vh;
+    border: 1px solid var(--main-color);
+}
+input[type="checkbox"]{
+    background-color: #222222;
+
+}
+form button{
+    padding: 2vh;
+    margin: 3vh 0;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 2px;
+    font-size: 1em;
+    color: var(--contrast-color);
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 8vh;
+}
+nav a{
+    background-color: var(--main-color);
+    color: var(--contrast-color);
+    width:calc(98vw/4);
+    text-align: center;
+    line-height: 8vh;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: var(--contrast-color);
+    color: var(--main-color);
+}
+footer{
+    background-color: var(--dark-color);
+    color: var(--contrast-color);
+    width: 98vw;
+    position: sticky;
+    left: 50%;
+    bottom: 0;
+}
+footer h5{
+    padding-left: 20px;
+}
+.jazda{
+    background-color: #4B4E6D;
+    display: flex;
+    justify-content: space-between;
+    padding:30px 45px 30px 15px;
+    color: var(--contrast-color);
+}
+.stop{
+    background-color: #222222;
+    color: var(--contrast-color);
+    text-align: center;
+    padding:30px;
+}
